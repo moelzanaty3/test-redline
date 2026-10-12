@@ -16,3 +16,28 @@ export class UserDirectory {
     return this.users.size
   }
 }
+
+function isUser(value: unknown): value is User {
+  return (
+    typeof value === 'object' &&
+    value !== null &&
+    'id' in value &&
+    typeof value.id === 'string' &&
+    'name' in value &&
+    typeof value.name === 'string' &&
+    'email' in value &&
+    typeof value.email === 'string'
+  )
+}
+
+export function loadUser(raw: string): User {
+  const parsed: unknown = JSON.parse(raw)
+  if (!isUser(parsed)) throw new Error('payload is not a User')
+  return parsed
+}
+
+export function requireUser(directory: UserDirectory, id: string): User {
+  const user = directory.find(id)
+  if (!user) throw new Error('the requested user does not exist')
+  return user
+}
