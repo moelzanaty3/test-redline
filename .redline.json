@@ -46,10 +46,12 @@
     "mergePolicy": true,
     "labels": true
   },
-  "integrations": [],
+  "integrations": [
+    "dependabot"
+  ],
   "pendingAdmin": [],
   "onboardedAt": "2026-10-12T16:49:48.176Z",
-  "lastRunAt": "2026-10-12T16:49:48.177Z",
+  "lastRunAt": "2026-10-12T18:00:16.743Z",
   "localRules": false,
   "commandFiles": {
     ".github/prompts/redline-init.prompt.md": "sha256:71ed5ee76c454eb7a4133f3e40f3900393ac22812be3a05ce536b9998902dfdb",
