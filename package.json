@@ -23,7 +23,7 @@
     "@types/lodash": "^4.17.26",
     "@types/node": "^22.20.5",
     "redlinegate": "0.2.10",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "lodash": "4.18.1"
