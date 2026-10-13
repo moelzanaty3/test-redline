@@ -65,6 +65,14 @@
     ".cursor/commands/redline-verify.md": "sha256:bcba83ad802987950bd7e714081ce5dd192fc1567478444e0db91470156b43ec"
   },
   "rung": "observe",
+  "evidence": {
+    "seedRecall": null,
+    "actedOnRate": 1,
+    "sampleSize": 7,
+    "falsePositives": null,
+    "recordedAt": "2026-10-13T18:40:50.948Z",
+    "source": "the 7 merged pull requests of the Learn path; every finding, all on step 02's, was fixed before merge"
+  },
   "gateSource": "local",
   "gateVersion": "0.2.10",
   "docsBaseUrl": "",
