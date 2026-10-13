@@ -51,8 +51,8 @@
   ],
   "pendingAdmin": [],
   "onboardedAt": "2026-10-12T16:49:48.176Z",
-  "lastRunAt": "2026-10-12T18:00:16.743Z",
-  "localRules": false,
+  "lastRunAt": "2026-10-13T09:59:50.959Z",
+  "localRules": true,
   "commandFiles": {
     ".github/prompts/redline-init.prompt.md": "sha256:71ed5ee76c454eb7a4133f3e40f3900393ac22812be3a05ce536b9998902dfdb",
     ".github/prompts/redline-review.prompt.md": "sha256:0f31a2c15e4795b3b76303ed79f4d6e5e2c78f96cc6de75e396e515e1fe5a8df",
