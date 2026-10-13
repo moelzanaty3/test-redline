@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { UserDirectory, loadUser, requireUser } from './users.js'
+import { UserDirectory, parseUser, requireUser } from './users.js'
 
 
 test('a user that was added can be found', () => {
@@ -17,11 +17,11 @@ test('the same id cannot be added twice', () => {
 
 test('a valid payload becomes a User', () => {
   const user = { id: 'u1', name: 'Ada', email: 'ada@example.com' }
-  assert.deepEqual(loadUser(JSON.stringify(user)), user)
+  assert.deepEqual(parseUser(JSON.stringify(user)), user)
 })
 
 test('a payload missing a field is refused', () => {
-  assert.throws(() => loadUser('{"id":"u1","name":"Ada"}'), /not a User/)
+  assert.throws(() => parseUser('{"id":"u1","name":"Ada"}'), /not a User/)
 })
 
 test('a missing user is refused without naming anyone', () => {
