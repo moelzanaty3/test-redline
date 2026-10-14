@@ -1,8 +1,12 @@
-import template from 'lodash/template.js'
 import type { User } from './users.js'
 
-const row = template('<%= id %>,<%= name %>,<%= email %>')
+// Quote every field, and prefix values a spreadsheet would evaluate as a formula.
+function csvField(value: string): string {
+  const safe = /^[=+\-@\t\r]/.test(value) ? `'${value}` : value
+  return `"${safe.replace(/"/g, '""')}"`
+}
 
 export function usersToCsv(users: User[]): string {
-  return ['id,name,email', ...users.map((user) => row(user))].join('\n')
+  const rows = users.map((user) => [user.id, user.name, user.email].map(csvField).join(','))
+  return ['id,name,email', ...rows].join('\n')
 }

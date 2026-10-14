@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       lodash:
-        specifier: 4.17.20
-        version: 4.17.20
+        specifier: 4.18.1
+        version: 4.18.1
     devDependencies:
       '@types/lodash':
         specifier: ^4.17.26
@@ -191,8 +191,8 @@ packages:
   '@types/node@22.20.5':
     resolution: {integrity: sha512-U2+DNr+wSjpsTS/wZGYHq7GcwfuSmKiKvoPvK22zwTlRhU91yOniN4qRR5KhIjvif7ysw/dz/hKmfDH0Ris4aA==}
 
-  lodash@4.17.20:
-    resolution: {integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==}
+  lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
   redlinegate@0.2.10:
     resolution: {integrity: sha512-DPcHdfWm2vBJHdpf+qcrVwgvJn/JqXcnsz99f46KpXIarclbyTvLKNoZ8HI5HOpottNPE5ycLdAHhJtX0S2/tw==}
@@ -215,7 +215,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  lodash@4.17.20: {}
+  lodash@4.18.1: {}
 
   redlinegate@0.2.10: {}
 
