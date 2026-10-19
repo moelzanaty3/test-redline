@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/lodash": "^4.17.26",
     "@types/node": "^22.20.5",
-    "redlinegate": "0.2.10",
+    "redlinegate": "0.2.11",
     "typescript": "^5.9.3"
   },
   "dependencies": {

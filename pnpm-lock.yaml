@@ -177,8 +177,8 @@ importers:
         specifier: ^22.20.5
         version: 22.20.5
       redlinegate:
-        specifier: 0.2.10
-        version: 0.2.10
+        specifier: 0.2.11
+        version: 0.2.11
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -194,8 +194,8 @@ packages:
   lodash@4.18.1:
     resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
-  redlinegate@0.2.10:
-    resolution: {integrity: sha512-DPcHdfWm2vBJHdpf+qcrVwgvJn/JqXcnsz99f46KpXIarclbyTvLKNoZ8HI5HOpottNPE5ycLdAHhJtX0S2/tw==}
+  redlinegate@0.2.11:
+    resolution: {integrity: sha512-LOi6j+36jZuFATvZXfcHM8+zppIu9TfATUbgbIC9+Nit7XnG4ufNRSKk4VB48TZkGHRg1YNmd55y6lO2oKs6Fw==}
     engines: {node: '>=18.11'}
     hasBin: true
 
@@ -217,7 +217,7 @@ snapshots:
 
   lodash@4.18.1: {}
 
-  redlinegate@0.2.10: {}
+  redlinegate@0.2.11: {}
 
   typescript@5.9.3: {}
 
