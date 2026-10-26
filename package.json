@@ -20,9 +20,9 @@
   "packageManager": "pnpm@12.11.2",
   "type": "module",
   "devDependencies": {
-    "@types/lodash": "^4.17.26",
+    "@types/lodash": "^4.17.27",
     "@types/node": "^22.20.5",
-    "redlinegate": "0.2.10",
+    "redlinegate": "0.2.11",
     "typescript": "^5.9.3"
   },
   "dependencies": {
